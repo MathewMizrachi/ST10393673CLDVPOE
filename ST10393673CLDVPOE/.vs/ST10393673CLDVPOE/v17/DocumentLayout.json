@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|c:\\users\\mathewmizrachi\\documents\\github\\st10393673cldvpoe\\st10393673cldvpoe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C88B5FD7-8DFF-493A-A089-7283E7A661B4}|ST10393673CLDVPOE.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:10:39.144Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T19:06:50.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T18:55:40.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Edit.cshtml",
+              "ViewState": "AQIAABcAAAAAmpmZmRkmwCsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T18:55:34.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T18:54:58.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T18:54:51.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:51:52.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwDQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:47:18.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T19:07:03.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
+              "ViewState": "AQIAAAkAAAAAbmZmZmYEwBoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T18:56:08.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImagesController.cs",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "Controllers\\ImagesController.cs",
+              "ViewState": "AQIAAIYAAACAmZmZmbkwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:52:15.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:39:21.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:10:16.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAcAAABAAgAAAAAhwBgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T18:25:49.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mathewmizrachi\\Documents\\GitHub\\ST10393673CLDVPOE\\ST10393673CLDVPOE\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:28:16.707Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
