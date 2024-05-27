@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ST10393673CLDVPOE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93ef577c7ea59496a779f71d6c775277229fbe50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8d9a0d89969947e02aa796939635f9a26856c26")]
 [assembly: System.Reflection.AssemblyProductAttribute("ST10393673CLDVPOE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ST10393673CLDVPOE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,23 +12,22 @@ using ST10393673CLDVPOE.Models;
 namespace ST10393673CLDVPOE.Controllers
 {
     [Authorize]
-    public class ProductsController : Controller
+    public class OrdersController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public ProductsController(ApplicationDbContext context)
+        public OrdersController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Products
+        // GET: Orders
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Product
-                .Include(p => p.Category).ToListAsync());
+            return View(await _context.Orders.Include(o =>o.Product).Where(a => a.UserID == User.Identity.Name).ToListAsync());
         }
 
-        // GET: Products/Details/5
+        // GET: Orders/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -36,47 +35,50 @@ namespace ST10393673CLDVPOE.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Product
-                .Include(p => p.Category)
-                .FirstOrDefaultAsync(m => m.ProductID == id);
-            if (product == null)
+            var orders = await _context.Orders.Include(o => o.Product)
+                .FirstOrDefaultAsync(m => m.OrderID == id);
+            if (orders == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(orders);
         }
 
-        // GET: Products/Create
+        // GET: Orders/Create
         public IActionResult Create()
         {
-
-            ViewBag.Category = new SelectList(_context.Category.OrderBy(x => x.Name), "CategoryID", "Name", null);
+            ViewBag.Product = new SelectList(_context.Product.OrderBy(x => x.Name), "ProductID", "Name", null);
 
             return View();
         }
 
-        // POST: Products/Create
+        // POST: Orders/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductID,Name,Price,Availability,ImageURL,CreatedAt")] Product product)
+        public async Task<IActionResult> Create([Bind("OrderID,OrderDate,OrderStatus,Quantity,UserID")] Orders orders)
         {
+            orders.UserID = User.Identity.Name;
 
-            int category_selected = Convert.ToInt32(Request.Form["Category"]);
-            product.Category = await _context.Category.FindAsync(category_selected);
+            //setting selected product
+            int product = Convert.ToInt32(Request.Form["Product"]);
+            orders.Product = await _context.Product.FindAsync(product);
 
             if (ModelState.IsValid)
             {
-                _context.Add(product);
+                _context.Add(orders);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+
+
+
+            return View(orders);
         }
 
-        // GET: Products/Edit/5
+        // GET: Orders/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -84,44 +86,46 @@ namespace ST10393673CLDVPOE.Controllers
                 return NotFound();
             }
 
-            Product product = await _context.Product.Include(p => p.Category).Where(x => x.ProductID == id).FirstOrDefaultAsync();
+            var orders = await _context.Orders.Include(a => a.Product).Where(a => a.OrderID == id).FirstOrDefaultAsync();
 
-
-           ViewBag.Category = new SelectList(_context.Category.OrderBy(x => x.Name), "CategoryID", "Name", product.Category.CategoryID);
-
-            if (product == null)
+            if (orders == null)
             {
                 return NotFound();
             }
-            return View(product);
+
+            ViewBag.Product = new SelectList(_context.Product.OrderBy(x => x.Name), "ProductID", "Name", orders.Product.ProductID);
+
+            return View(orders);
         }
 
-        // POST: Products/Edit/5
+        // POST: Orders/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductID,Name,Price,Availability,ImageURL,CreatedAt")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("OrderID,OrderDate,OrderStatus,Quantity,UserID")] Orders orders)
         {
-            if (id != product.ProductID)
+            if (id != orders.OrderID)
             {
                 return NotFound();
             }
 
+            orders.UserID = User.Identity.Name;
 
-            int category_selected = Convert.ToInt32(Request.Form["Category"]);
-            product.Category = await _context.Category.FindAsync(category_selected);
+            //setting selected product
+            int product = Convert.ToInt32(Request.Form["Product"]);
+            orders.Product = await _context.Product.FindAsync(product);
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(product);
+                    _context.Update(orders);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductExists(product.ProductID))
+                    if (!OrdersExists(orders.OrderID))
                     {
                         return NotFound();
                     }
@@ -132,10 +136,10 @@ namespace ST10393673CLDVPOE.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            return View(orders);
         }
 
-        // GET: Products/Delete/5
+        // GET: Orders/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -143,34 +147,34 @@ namespace ST10393673CLDVPOE.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Product
-                .FirstOrDefaultAsync(m => m.ProductID == id);
-            if (product == null)
+            var orders = await _context.Orders
+                .FirstOrDefaultAsync(m => m.OrderID == id);
+            if (orders == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(orders);
         }
 
-        // POST: Products/Delete/5
+        // POST: Orders/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var product = await _context.Product.FindAsync(id);
-            if (product != null)
+            var orders = await _context.Orders.FindAsync(id);
+            if (orders != null)
             {
-                _context.Product.Remove(product);
+                _context.Orders.Remove(orders);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductExists(int id)
+        private bool OrdersExists(int id)
         {
-            return _context.Product.Any(e => e.ProductID == id);
+            return _context.Orders.Any(e => e.OrderID == id);
         }
     }
 }
