@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace TestApp2.Models
+namespace ST10393673CLDVPOE.Models
 {
     public class Product
     {

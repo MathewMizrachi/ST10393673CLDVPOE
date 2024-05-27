@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel;
-using TestApp2.Models;
+using ST10393673CLDVPOE.Models;
 
 namespace ST10393673CLDVPOE.Models
 {

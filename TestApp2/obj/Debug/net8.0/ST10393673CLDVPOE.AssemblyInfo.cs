@@ -12,11 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-TestApp2-2640c57e-8d11-4b6e-9142-adcac6fb59af")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-ST10393673CLDVPOE-2640c57e-8d11-4b6e-9142-adcac6fb59af")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ST10393673CLDVPOE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93ef577c7ea59496a779f71d6c775277229fbe50")]
 [assembly: System.Reflection.AssemblyProductAttribute("ST10393673CLDVPOE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ST10393673CLDVPOE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

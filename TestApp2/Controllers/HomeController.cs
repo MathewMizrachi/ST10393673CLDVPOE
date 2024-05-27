@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using TestApp2.Models;
+using ST10393673CLDVPOE.Models;
 
-namespace TestApp2.Controllers
+namespace ST10393673CLDVPOE.Controllers
 {
     public class HomeController : Controller
     {

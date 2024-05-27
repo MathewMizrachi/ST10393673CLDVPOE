@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-TestApp2-2640c57e-8d11-4b6e-9142-adcac6fb59af</UserSecretsId>
+    <UserSecretsId>aspnet-ST10393673CLDVPOE-2640c57e-8d11-4b6e-9142-adcac6fb59af</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

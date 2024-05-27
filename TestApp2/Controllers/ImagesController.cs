@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using TestApp2.Data;
-using TestApp2.Models;
+using ST10393673CLDVPOE.Data;
+using ST10393673CLDVPOE.Models;
 
-namespace TestApp2.Controllers
+namespace ST10393673CLDVPOE.Controllers
 {
     public class ImagesController : Controller
     {

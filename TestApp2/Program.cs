@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using TestApp2.Data;
+using ST10393673CLDVPOE.Data;
 
-namespace TestApp2
+namespace ST10393673CLDVPOE
 {
     public class Program
     {

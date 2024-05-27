@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace TestApp2.Data.Migrations
+namespace ST10393673CLDVPOE.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

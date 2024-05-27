@@ -1,4 +1,4 @@
-﻿namespace TestApp2.Models
+﻿namespace ST10393673CLDVPOE.Models
 {
     public class Image
     {
